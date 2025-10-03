@@ -1,0 +1,26 @@
+body {
+  font-family: ftltlt;
+}
+
+@font-face {
+  font-family: ftltlt;
+  src: url(ftltlt-webfont.woff);
+}
+
+h2 {
+    font-size: 56px;
+    color: #9000ff;
+    font-weight: bold;
+}
+
+p:first-of-type {
+    color: #0d0303;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: #7272dd;
+    text-decoration: none;
+}
