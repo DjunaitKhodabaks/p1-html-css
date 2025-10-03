@@ -24,3 +24,19 @@ a {
     color: #7272dd;
     text-decoration: none;
 }
+
+.img {
+  width: 400px;
+  height: auto;
+  
+}
+
+.img:hover + div {
+  display: block;
+}
+
+div {
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+}
